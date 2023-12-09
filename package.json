@@ -5,8 +5,8 @@
   "typings": "./bin/index.d.ts",
   "type": "module",
   "author": {
-    "name": "your name",
-    "email": "your@email.com"
+    "name": "ouyangchao",
+    "email": "chao@ouyang.io"
   },
   "license": "WTFPL",
   "repository": "https://github.com/your/package/address",
