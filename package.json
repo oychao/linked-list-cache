@@ -1,0 +1,52 @@
+{
+  "name": "linked-list-cache",
+  "version": "0.0.1",
+  "main": "./bin/index.js",
+  "typings": "./bin/index.d.ts",
+  "type": "module",
+  "author": {
+    "name": "your name",
+    "email": "your@email.com"
+  },
+  "license": "WTFPL",
+  "repository": "https://github.com/your/package/address",
+  "keywords": [
+    "linked list",
+    "cache",
+    "lru"
+  ],
+  "description": "a handy linked list",
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "bin/"
+  ],
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "ts"
+    }
+  },
+  "scripts": {
+    "build": "npm run build:tsc",
+    "build:tsc": "rm -rf bin && tsc && tsc-alias",
+    "test": "mocha test/**/*.spec.ts",
+    "watch": "npm-watch build"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.10.4",
+    "@types/sinon": "^17.0.2",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "npm-watch": "^0.11.0",
+    "sinon": "^17.0.1",
+    "tsc-alias": "^1.8.8",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3",
+    "typescript-transform-paths": "^3.4.6"
+  }
+}
